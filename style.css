@@ -1,0 +1,149 @@
+/* Estilos gerais */
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", sans-serif;
+  }
+  
+  .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  /* Cabeçalho */
+  header {
+	background-color: #1a1a1a;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+  }
+  
+  header h1 {
+	margin: 0;
+	font-size: 36px;
+	flex: 1;
+  }
+  
+  header ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+  }
+  
+  header ul li {
+	margin-left: 20px;
+	font-size: 18px;
+  }
+  
+  header ul li:first-child {
+	margin-left: 0;
+  }
+  
+  /* Seção Sobre Mim */
+  #sobre-mim {
+	background-color: #f2f2f2;
+	padding: 40px;
+	text-align: center;
+  }
+  
+  #sobre-mim h3 {
+	margin-top: 0;
+	font-size: 36px;
+	color: #1a1a1a;
+  }
+  
+  #sobre-mim p {
+	font-size: 20px;
+	color: #333;
+	text-align: justify;
+  }
+  
+/* Seção Projetos */
+#projetos {
+	background-color: #fff;
+	padding: 50px;
+	text-align: center;
+  }
+  
+  #projetos h2 {
+	margin-top: 0;
+	font-size: 36px;
+	color: #1a1a1a;
+  }
+  
+  .projeto {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .projeto img {
+	max-width: 100%;
+	margin-bottom: 20px;
+  }
+  
+  .projeto h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .projeto p {
+	font-size: 18px;
+	margin-bottom: 20px;
+	max-width: 600px;
+	text-align: justify;
+  }
+  
+  .projeto a {
+	background-color: #1a1a1a;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+  }
+  
+  .projeto a:hover {
+	background-color: #fff;
+	color: #1a1a1a;
+	border: 1px solid #1a1a1a;
+  }
+  
+  
+/* Seção Contato */
+#contato {
+	background-color: #e6e6e6;
+	padding: 50px;
+	text-align: center;
+  }
+  
+  #contato h2 {
+	margin-top: 0;
+	font-size: 36px;
+	color: #1a1a1a;
+  }
+  
+  #contato p {
+	font-size: 20px;
+	color: #333;
+  }
+  
+  #contato ul {
+	list-style: none; /* remove os marcadores */
+  }
+  
+
+  
+  /* Rodapé */
+  footer {
+	background-color: #bdbdbd;
+	color: #333;
+	padding: 10px;
+	text-align: center;
+  }
+  
